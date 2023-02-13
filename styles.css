@@ -1,0 +1,43 @@
+div {
+    border: black solid 1px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.top-header {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    height: auto;
+    width: auto;
+}
+
+.setup {
+    padding: 20px 35px 20px 35px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+
+.fred {
+    height: 100px;
+    width: 100px;
+}
